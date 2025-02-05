@@ -7,7 +7,7 @@ This repository contains a stock data pipeline that fetches data from Yahoo Fina
 
 The pipeline follows this workflow:
 1. Fetch stock market data using `yfinance`.
-2. Process and clean the data within an Apache Airflow DAG.
+2. Process the data within an Apache Airflow DAG.
 3. Store the processed data in AWS S3.
 
 ![Pipeline Flow](imgs/flow.png)
